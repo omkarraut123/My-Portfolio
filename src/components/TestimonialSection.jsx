@@ -4,6 +4,7 @@ import bhargaviImg from '../assets/images/bhargavi.jfif';
 import siddharthImg  from '../assets/images/siddharth.png';
 import jaspreetImg from '../assets/images/jaspreet.png';
 import image from '../assets/images/image.png';
+
 const TestimonialSection = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 

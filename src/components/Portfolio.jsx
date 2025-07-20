@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Download, Mail, Github, Linkedin, MapPin, Calendar, ExternalLink, Code, GraduationCap, Menu, X, Phone, Globe } from 'lucide-react';
 import TestimonialSection from './TestimonialSection';
-
+import myphotpGraph from '../assets/images/Photograph.jpg';
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -217,7 +217,7 @@ const Portfolio = () => {
           <div className="text-center">
             <div className="py-8">
               <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center shadow-xl">
-                <span className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold">OR</span>
+                <span className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold"><img src={myphotpGraph} alt='omkar' className='w-[140px] h-[140px] md:w-[200px] md:h-[200px] rounded-full object-cover border-2 border-gray-200' /></span>
               </div>
             </div>
             
