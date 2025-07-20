@@ -50,7 +50,7 @@ const TestimonialSection = () => {
       role: "Full-stack developer",
       company: "Tata Consultancy Services",
       image: image,
-      testimonial: "I've had the chance to work with [Name] on several critical sprints. Even under tight deadlines, they remained focused, calm, and delivered results without compromising on quality.",
+      testimonial: "I've had the chance to work with Omkar raut on several critical sprints. Even under tight deadlines, they remained focused, calm, and delivered results without compromising on quality.",
       rating: 5
     },
    
