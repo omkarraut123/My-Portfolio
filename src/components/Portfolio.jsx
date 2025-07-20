@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Download, Mail, Github, Linkedin, MapPin, Calendar, ExternalLink, Code, GraduationCap, Menu, X, Phone, Globe } from 'lucide-react';
+import TestimonialSection from './TestimonialSection';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -12,12 +13,13 @@ const Portfolio = () => {
     { name: 'Experience', id: 'experience' },
     { name: 'Projects', id: 'projects' },
     { name: 'Education', id: 'education' },
-    { name: 'Contact', id: 'contact' }
+    {name: 'Testimonial', id: 'testimonial'},
+    { name: 'Contact', id: 'contact' }    
   ];
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'experience', 'projects', 'education', 'contact'];
+      const sections = ['home', 'about', 'skills', 'experience', 'projects', 'education','testimonial', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (let i = sections.length - 1; i >= 0; i--) {
@@ -433,6 +435,11 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
+       {/* Testimonial Section */}
+       <section id="testimonial">
+          <TestimonialSection />
+       </section>
+        
 
       {/* Contact Section */}
       <section id="contact" className="py-16 lg:py-24 bg-gradient-to-br from-gray-900 to-blue-900 text-white">
@@ -482,6 +489,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+        
       </section>
 
       {/* Footer */}
