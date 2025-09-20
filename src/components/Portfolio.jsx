@@ -234,7 +234,7 @@ const Portfolio = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 lg:gap-6 mb-12">
               <button className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg w-full sm:w-auto justify-center cursor-pointer">
                 <Download size={20} />
-               <a href='https://drive.google.com/file/d/1F8tEIHJT3_TRyFF6kY0TBSiqiTLpJ5RZ/view?usp=sharing' target='_blank' download='CV_Omkar_Raut.pdf'><span className="font-medium">Download Resume</span></a>
+               <a href='https://drive.google.com/file/d/1oTB8hq82qlU8YHJAB73IbC8o9TK1bubC/view?usp=sharing' target='_blank' download='CV_Omkar_Raut.pdf'><span className="font-medium">Download Resume</span></a>
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
