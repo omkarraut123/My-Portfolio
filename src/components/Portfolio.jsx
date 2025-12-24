@@ -90,6 +90,14 @@ const Portfolio = () => {
   ];
 
   const projects = [
+    ,
+    {
+      name: "Tic Tac Toe Game (React.js)",
+      description: "Developed an interactive Tic Tac Toe game using React.js, focusing on component-based architecture and state management. The application allows two players to take alternate turns, dynamically updates the game board, and determines the winner or draw based on predefined winning combinations.",
+      tech: ["React","Javascript","HTML", "CSS"],
+      liveDemo: "https://omkarraut123.github.io/React-Tic-Tac-Toe/",
+      github: ""
+    },
     {
       name: "Placement Success Programme",
       description: "The Placement Success Programme (PSP) is a job-oriented initiative by TCS iON in collaboration with corporate partners. It is designed for pre-final/final-year students and recent graduates (within two years of graduation). The program helps candidates acquire technical, domain-specific, and soft skills and culminates in job offers and certification upon successful completion. The first job role under this program is Graduate Engineer Trainee in IT.",
@@ -117,7 +125,7 @@ const Portfolio = () => {
       tech: ["React","Javascript","jQuery","Axios","HTML", "CSS", "Bootstrap", "Java", "MySql"],
       liveDemo: "",
       github: ""
-    },
+    }
   ];
 
   const education = [
