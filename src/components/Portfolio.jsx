@@ -90,13 +90,19 @@ const Portfolio = () => {
   ];
 
   const projects = [
-    ,
     {
-      name: "Tic Tac Toe Game (React.js)",
+      name: "Tic Tac Toe Game (React.js )",
       description: "Developed an interactive Tic Tac Toe game using React.js, focusing on component-based architecture and state management. The application allows two players to take alternate turns, dynamically updates the game board, and determines the winner or draw based on predefined winning combinations.",
       tech: ["React","Javascript","HTML", "CSS"],
       liveDemo: "https://omkarraut123.github.io/React-Tic-Tac-Toe/",
-      github: ""
+      github: "https://github.com/omkarraut123/React-Tic-Tac-Toe"
+    },
+    {
+      name: "Project Manager",
+      description: "A Basic web-based Project Management Application designed to plan, track,and manage projects, tasks.",
+      tech: ["React","Javascript","HTML", "CSS", "tailwind Css"],
+      liveDemo: "https://omkarraut123.github.io/React-Project-Manager/",
+      github: "https://github.com/omkarraut123/React-Project-Manager"
     },
     {
       name: "Placement Success Programme",
