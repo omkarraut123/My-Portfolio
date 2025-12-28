@@ -105,6 +105,13 @@ const Portfolio = () => {
       github: "https://github.com/omkarraut123/React-Project-Manager"
     },
     {
+      name: "React Quiz App",
+      description: "Developed an basic Quiz App using React.js. Learn use and behaviour of Hooks such as useEffect, useState and side effects.",
+      tech: ["React","Javascript","HTML", "CSS"],
+      liveDemo: "https://omkarraut123.github.io/React-Quiz-App/",
+      github: "https://github.com/omkarraut123/React-Quiz-App"
+    },
+    {
       name: "Placement Success Programme",
       description: "The Placement Success Programme (PSP) is a job-oriented initiative by TCS iON in collaboration with corporate partners. It is designed for pre-final/final-year students and recent graduates (within two years of graduation). The program helps candidates acquire technical, domain-specific, and soft skills and culminates in job offers and certification upon successful completion. The first job role under this program is Graduate Engineer Trainee in IT.",
       tech: ["React","Javascript","jQuery","Axios","HTML", "CSS", "Bootstrap", "Java", "MySql"],
